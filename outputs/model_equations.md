@@ -10,7 +10,7 @@ Based on the isolated regression outputs, the equations for our single-variable 
 ## 2. Multiple Regression Equation (Final Model)
 Based on the comprehensive multiple regression analysis, the predictive equation for monthly store sales is:
 
-$Monthly Sales = -47395.73 + 0.29(Marketing Spend) + 63.63(Footfall) + 1481.54(Inventory Pct) + 3147.26(is Mall) + 39912.44(is High Street) + 115216.51(is Airport)$
+$"Monthly Sales" = -47395.73 + 0.29(Marketing Spend) + 63.63(Footfall) + 1481.54(InventoryPct) + 3147.26(isMall) + 39912.44(isHigh Street) + 115216.51(is Airport)$
 
 ## 3. Coefficient Explanations & Business Impact (Final Model)
 * **Intercept (-47,395.73):** The theoretical baseline sales if all other variables were zero. In business terms, this represents fixed overhead drag; a store with zero traffic, zero inventory, and zero marketing operates at a loss.
