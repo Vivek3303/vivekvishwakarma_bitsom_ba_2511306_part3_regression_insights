@@ -2,7 +2,7 @@
 
 ## 1. Simple Regression Equations
 Based on the isolated regression outputs, the equations for our single-variable models are:
-* **Model 1 (Marketing Spend):** $Monthly_Sales = 618583.57 + 0.28(Marketing_Spend)$
+* **Model 1 (Marketing Spend):** $Monthly&nbspSales = 618583.57 + 0.28(Marketing&nbspSpend)$
   * *Interpretation:* When isolated, marketing spend shows a massive baseline intercept but only generates $0.28 for every dollar spent. It is statistically significant (P-value: 0.001) but practically inefficient.
 * **Model 2 (Footfall):** $Monthly\_Sales = 17947.29 + 75.98(Footfall)$
   * *Interpretation:* When isolated, footfall is a highly significant driver (P-value: 1.15E-11), generating $75.98 in top-line sales per visitor.
