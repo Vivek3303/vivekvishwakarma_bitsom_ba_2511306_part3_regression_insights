@@ -2,15 +2,15 @@
 
 ## 1. Simple Regression Equations
 Based on the isolated regression outputs, the equations for our single-variable models are:
-* **Model 1 (Marketing Spend):** $MonthlySales = 618583.57 + 0.28(MarketingSpend)$
+* **Model 1 (Marketing Spend):** $Monthly\_Sales = 618583.57 + 0.28(Marketing\_Spend)$
   * *Interpretation:* When isolated, marketing spend shows a massive baseline intercept but only generates $0.28 for every dollar spent. It is statistically significant (P-value: 0.001) but practically inefficient.
-* **Model 2 (Footfall):** $MonthlySales = 17947.29 + 75.98(Footfall)$
+* **Model 2 (Footfall):** $Monthly\_Sales = 17947.29 + 75.98(Footfall)$
   * *Interpretation:* When isolated, footfall is a highly significant driver (P-value: 1.15E-11), generating $75.98 in top-line sales per visitor.
 
 ## 2. Multiple Regression Equation (Final Model)
 Based on the comprehensive multiple regression analysis, the predictive equation for monthly store sales is:
 
-$"Monthly Sales" = -47395.73 + 0.29(Marketing Spend) + 63.63(Footfall) + 1481.54(InventoryPct) + 3147.26(isMall) + 39912.44(isHigh Street) + 115216.51(is Airport)$
+$`Monthly\_Sales = -47395.73 + 0.29(Marketing\_Spend) + 63.63(Footfall) + 1481.54(Inventory\_Pct) + 3147.26(is\_Mall) + 39912.44(is\_High\_Street) + 115216.51(is\_Airport)`$
 
 ## 3. Coefficient Explanations & Business Impact (Final Model)
 * **Intercept (-47,395.73):** The theoretical baseline sales if all other variables were zero. In business terms, this represents fixed overhead drag; a store with zero traffic, zero inventory, and zero marketing operates at a loss.
